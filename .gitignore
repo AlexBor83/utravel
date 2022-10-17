@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+.vscode
+package-lock.json
+*.ai
+*.log
+node_modules/
+Thumbs.db

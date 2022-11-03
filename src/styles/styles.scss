@@ -1,5 +1,5 @@
 // @import '~normalize.css';
-@import './fonts.scss';
+@import './blocks/fonts.scss';
 
 .container {
   max-width: 1000px;
@@ -7,7 +7,7 @@
   background-color: rgb(196, 201, 255);
   color: rgb(30, 0, 23);
   user-select: none;
-  font-family: 'manrope', sans-serif;
+  font-family: 'avenir', sans-serif;
 }
 
 .logo {

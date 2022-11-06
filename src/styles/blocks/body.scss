@@ -1,0 +1,13 @@
+body {
+  font-family: 'avenir', sans-serif;
+  color: #4e4e4e;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 16px;
+  min-height: 100vh;
+  min-width: 320px;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  overflow-x: hidden;
+}

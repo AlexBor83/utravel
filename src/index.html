@@ -52,153 +52,161 @@
                 <p class="tickets__subtitle">
                     Book now!
                 </p>
-                <div class="tickets__toggel">
-                    <button class="tickets__button button button--active">
-                        Buy Tickets
-                    </button>
-                    <button class="tickets__button button">
-                        Check your flight status
-                    </button>
-                </div>
-                <div class="tickets__vrap">
-                    <form action="" class="tickets__form form">
-                        <div class="form__toggel toggeles">
-                            <ul class="toggles__list">
-                                <li class="toggles__item">
-                                    <label class="toggles__label toggles-check toggles--radio">
-                                        <input class="toggles-check__input" type="radio" name="radio" value="v1"
-                                            checked>
-                                        <span class="toggles-check__disk"></span>
-                                        One way
-                                    </label>
+                <div class="tickets__inner">
+                    <div class="tickets__toggel">
+                        <button class="tickets__button tickets__button--active">
+                            Buy Tickets
+                        </button>
+                        <button class="tickets__button button">
+                            Check your flight status
+                        </button>
+                    </div>
+                    <div class="tickets__vrap">
+                        <form action="" class="tickets__form form">
+                            <div class="form__toggel toggeles">
+                                <ul class="toggles__list">
+                                    <li class="toggles__item">
+                                        <label class="toggles__label toggles-check toggles--radio">
+                                            <input class="toggles-check__input visually-hidden" type="radio"
+                                                name="radio" value="v1" checked>
+                                            <span class="toggles-check__disk"></span>
+                                            One way
+                                        </label>
+                                    </li>
+                                    <li class="toggles__item">
+                                        <label class="toggles__label toggles-check toggles--radio">
+                                            <input class="toggles-check__input visually-hidden" type="radio"
+                                                name="radio" value="v2">
+                                            <span class="toggles-check__disk"></span>
+                                            Round trip
+                                        </label>
+                                    </li>
+                                    <li class="toggles__item">
+                                        <label class="toggles__label toggles-check toggles--radio">
+                                            <input class="toggles-check__input visually-hidden" type="radio"
+                                                name="radio" value="v3">
+                                            <span class="toggles-check__disk"></span>
+                                            Multi-city
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="form__option options">
+                                <li class="options__wrap">
+                                    <div class="options__content">
+                                        <p class="options__text">
+                                            From
+                                        </p>
+                                        <select class="options__select" name="sity" id="">
+                                            <option value="Select Departure">Select Departure...</option>
+                                            <option value="Madrid-Barajas International Airport  MAD">
+                                                Madrid-Barajas International Airport MAD
+                                            </option>
+                                            <option value="Prague Airport  LKPR">
+                                                Prague Airport LKPR
+                                            </option>
+                                            <option value="Aalborg Airport  EKYT">
+                                                Aalborg Airport EKYT
+                                            </option>
+                                            <option value="Aarhus Airport EKAH">
+                                                Aarhus Airport EKAH
+                                            </option>
+                                            <option value="Billund Airport  EKBI">
+                                                Billund Airport EKBI
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="options__content">
+                                        <p class="options__text">
+                                            To
+                                        </p>
+                                        <select class="options__select" name="sity" id="">
+                                            <option value="Select Departure">Select Departure...</option>
+                                            <option value="Madrid-Barajas International Airport  MAD">
+                                                Madrid-Barajas International Airport MAD
+                                            </option>
+                                            <option value="Prague Airport  LKPR">
+                                                Prague Airport LKPR
+                                            </option>
+                                            <option value="Aalborg Airport  EKYT">
+                                                Aalborg Airport EKYT
+                                            </option>
+                                            <option value="Aarhus Airport EKAH">
+                                                Aarhus Airport EKAH
+                                            </option>
+                                            <option value="Billund Airport  EKBI">
+                                                Billund Airport EKBI
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="options__content">
+                                        <p class="options__text">
+                                            Departure date
+                                        </p>
+                                        <input class="options__select" type="date" placeholder="dd/mm/yy">
+                                    </div>
                                 </li>
-                                <li class="toggles__item">
-                                    <label class="toggles__label toggles-check toggles--radio">
-                                        <input class="toggles-check__input" type="radio" name="radio" value="v2">
-                                        <span class="toggles-check__disk"></span>
-                                        Round trip
-                                    </label>
-                                </li>
-                                <li class="toggles__item">
-                                    <label class="toggles__label toggles-check toggles--radio">
-                                        <input class="toggles-check__input" type="radio" name="radio" value="v3">
-                                        <span class="toggles-check__disk"></span>
-                                        Multi-city
-                                    </label>
+
+                                <li class="options__wrap visually-hidden">
+                                    <div class="options__content">
+                                        <p class="options__text">
+                                            From
+                                        </p>
+                                        <select class="options__select" name="sity" id="">
+                                            <option value="Select Departure">Select Departure...</option>
+                                            <option value="Madrid-Barajas International Airport  MAD">
+                                                Madrid-Barajas International Airport MAD
+                                            </option>
+                                            <option value="Prague Airport  LKPR">
+                                                Prague Airport LKPR
+                                            </option>
+                                            <option value="Aalborg Airport  EKYT">
+                                                Aalborg Airport EKYT
+                                            </option>
+                                            <option value="Aarhus Airport EKAH">
+                                                Aarhus Airport EKAH
+                                            </option>
+                                            <option value="Billund Airport  EKBI">
+                                                Billund Airport EKBI
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="options__content">
+                                        <p class="options__text">
+                                            To
+                                        </p>
+                                        <select class="options__select" name="sity" id="">
+                                            <option value="Select Departure">Select Departure...</option>
+                                            <option value="Madrid-Barajas International Airport  MAD">
+                                                Madrid-Barajas International Airport MAD
+                                            </option>
+                                            <option value="Prague Airport  LKPR">
+                                                Prague Airport LKPR
+                                            </option>
+                                            <option value="Aalborg Airport  EKYT">
+                                                Aalborg Airport EKYT
+                                            </option>
+                                            <option value="Aarhus Airport EKAH">
+                                                Aarhus Airport EKAH
+                                            </option>
+                                            <option value="Billund Airport  EKBI">
+                                                Billund Airport EKBI
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="options__content">
+                                        <p class="options__text">
+                                            Departure date
+                                        </p>
+                                        <input class="options__select" type="date">
+                                    </div>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="form__option options">
-                            <div class="options__wrap">
-                                <div class="options__content">
-                                    <p class="options__text">
-                                        From
-                                    </p>
-                                    <select class="options__select" name="sity" id="">
-                                        <option value="Select Departure">Select Departure...</option>
-                                        <option value="Madrid-Barajas International Airport  MAD">
-                                            Madrid-Barajas International Airport MAD
-                                        </option>
-                                        <option value="Prague Airport  LKPR">
-                                            Prague Airport LKPR
-                                        </option>
-                                        <option value="Aalborg Airport  EKYT">
-                                            Aalborg Airport EKYT
-                                        </option>
-                                        <option value="Aarhus Airport EKAH">
-                                            Aarhus Airport EKAH
-                                        </option>
-                                        <option value="Billund Airport  EKBI">
-                                            Billund Airport EKBI
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="options__content">
-                                    <p class="options__text">
-                                        To
-                                    </p>
-                                    <select class="options__select" name="sity" id="">
-                                        <option value="Select Departure">Select Departure...</option>
-                                        <option value="Madrid-Barajas International Airport  MAD">
-                                            Madrid-Barajas International Airport MAD
-                                        </option>
-                                        <option value="Prague Airport  LKPR">
-                                            Prague Airport LKPR
-                                        </option>
-                                        <option value="Aalborg Airport  EKYT">
-                                            Aalborg Airport EKYT
-                                        </option>
-                                        <option value="Aarhus Airport EKAH">
-                                            Aarhus Airport EKAH
-                                        </option>
-                                        <option value="Billund Airport  EKBI">
-                                            Billund Airport EKBI
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="options__content">
-                                    <p class="options__text">
-                                        Departure date
-                                    </p>
-                                    <input class="options__date" type="date" placeholder="dd/mm/yy">
-                                </div>
-                            </div>
 
-                            <div class="options__wrap">
-                                <div class="options__content">
-                                    <p class="options__text">
-                                        From
-                                    </p>
-                                    <select class="options__select" name="sity" id="">
-                                        <option value="Select Departure">Select Departure...</option>
-                                        <option value="Madrid-Barajas International Airport  MAD">
-                                            Madrid-Barajas International Airport MAD
-                                        </option>
-                                        <option value="Prague Airport  LKPR">
-                                            Prague Airport LKPR
-                                        </option>
-                                        <option value="Aalborg Airport  EKYT">
-                                            Aalborg Airport EKYT
-                                        </option>
-                                        <option value="Aarhus Airport EKAH">
-                                            Aarhus Airport EKAH
-                                        </option>
-                                        <option value="Billund Airport  EKBI">
-                                            Billund Airport EKBI
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="options__content">
-                                    <p class="options__text">
-                                        To
-                                    </p>
-                                    <select class="options__select" name="sity" id="">
-                                        <option value="Select Departure">Select Departure...</option>
-                                        <option value="Madrid-Barajas International Airport  MAD">
-                                            Madrid-Barajas International Airport MAD
-                                        </option>
-                                        <option value="Prague Airport  LKPR">
-                                            Prague Airport LKPR
-                                        </option>
-                                        <option value="Aalborg Airport  EKYT">
-                                            Aalborg Airport EKYT
-                                        </option>
-                                        <option value="Aarhus Airport EKAH">
-                                            Aarhus Airport EKAH
-                                        </option>
-                                        <option value="Billund Airport  EKBI">
-                                            Billund Airport EKBI
-                                        </option>
-                                    </select>
-                                </div>
-                                <div class="options__content">
-                                    <p class="options__text">
-                                        Departure date
-                                    </p>
-                                    <input class="options__date" type="date" placeholder="dd/mm/yy">
-                                </div>
+                            <div class="options__passengers">
 
-                                <input type="submit" value="Book now!">
+                                <input class="options__button" type="submit" value="Book now!">
 
                                 <div class="options__content options__content--passengers passengers">
                                     <p class="options__text passengers__text">
@@ -257,22 +265,26 @@
                                                 </div>
                                             </div>
                                         </option>
+                                        <div class="passengers__links">
+                                            <a href="#" class="passengers__link">Cancel</a>
+                                            <a href="#" class="passengers__link">Done</a>
+                                        </div>
                                     </select>
-                                    <div class="passengers__links">
-                                        <a href="#" class="passengers__link">Cancel</a>
-                                        <a href="#" class="passengers__link">Done</a>
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
+
+
+                        </form>
+                    </div>
                 </div>
+
                 <div class="tickets__contet">
                     <p class="tickets__text">
                         Active travel alert
                     </p>
                     <p class="tickets__text">
-                        There is a travel warning issued by the government due to the coronavirus epidemic (COVID-19).
+                        There is a travel warning issued by the government due to the coronavirus epidemic
+                        (COVID-19).
                         <a href="#" class="tickets__link">More details</a>
                     </p>
                 </div>

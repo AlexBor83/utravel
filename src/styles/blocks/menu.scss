@@ -25,6 +25,10 @@
       right: 0;
     }
   }
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .menu__link {
@@ -32,11 +36,6 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 16px;
-
-  &:hover,
-  &:focus {
-    opacity: 0.5;
-  }
 
   &--active {
     text-decoration: underline;

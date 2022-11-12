@@ -1,0 +1,30 @@
+.card-discover {
+  width: 33.3%;
+  min-height: 330px;
+
+  border: 0.5px solid #a4a4a4;
+  border-radius: 5px;
+  transform: 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.card-discover__img {
+  margin-bottom: 24px;
+}
+
+.card-discover__title {
+  font-size: 20px;
+  line-height: 16px;
+  color: #727171;
+  margin-bottom: 16px;
+  padding-left: 33px;
+  padding-right: 20px;
+}
+
+.card-discover__text {
+  padding-left: 33px;
+  padding-right: 60px;
+}

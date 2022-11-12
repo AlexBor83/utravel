@@ -6,11 +6,9 @@
 @import './blocks/container.scss';
 @import './blocks/header.scss';
 @import './blocks/menu.scss';
-
-// .container {
-//   max-width: 1500px;
-//   padding-left: 15px;
-//   padding-right: 15px;
-//   margin: 0 auto;
-//   background-color: aquamarine;
-// }
+@import './blocks/tickets.scss';
+@import './blocks/form.scss';
+@import './blocks/toggeles.scss';
+@import './blocks/options.scss';
+@import './blocks/traveling.scss';
+@import './blocks/card-travel.scss';

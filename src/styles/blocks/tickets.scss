@@ -1,0 +1,73 @@
+.tickets {
+  margin-top: -85px;
+}
+
+.tickets__subtitle {
+  font-size: 24px;
+  line-height: 16px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
+  margin-bottom: 14px;
+}
+
+.tickets__inner {
+  background: #ffffff;
+  box-shadow: 2px -6px 5px 3px rgba(0, 0, 0, 0.26);
+  border-radius: 7px;
+  padding-top: 40px;
+}
+
+.tickets__toggel {
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  gap: 90px;
+  padding-left: 67px;
+  margin-bottom: 21px;
+}
+
+.tickets__button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &--active {
+    text-decoration: underline;
+    text-decoration-color: #ff7100;
+    color: #ff7100;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.tickets__vrap {
+  padding-left: 60px;
+}
+
+.tickets__contet {
+  background: #fff8e1;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 23px 105px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url('../img/danger-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+  }
+}

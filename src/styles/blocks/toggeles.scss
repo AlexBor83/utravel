@@ -1,0 +1,42 @@
+.toggles__list {
+  display: flex;
+  gap: 120px;
+}
+
+.toggles__label {
+  cursor: pointer;
+  transition: opacity 0.5s;
+
+  &:hover {
+    opacity: 80%;
+  }
+}
+
+.toggles-check__disk {
+  position: relative;
+  display: inline-block;
+  vertical-align: sub;
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  box-shadow: inset 0px 1.5px 1px rgba(0, 0, 0, 0.15),
+    inset 0px 0px 2px rgba(0, 0, 0, 0.1);
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffa200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in;
+  }
+}
+
+.toggles-check__input:checked + .toggles-check__disk::after {
+  transform: translate(-50%, -50%) scale(1);
+}

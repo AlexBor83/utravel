@@ -8,6 +8,11 @@
   &:hover {
     opacity: 0.7;
   }
+
+  &--cheaps {
+    background: #fff8e1;
+    border-color: #fff8e1;
+  }
 }
 
 .card-travel__content {
@@ -31,4 +36,8 @@
 
 .card-travel__price {
   text-align: right;
+
+  &--cheaps {
+    color: #ff0000;
+  }
 }

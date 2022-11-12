@@ -1,0 +1,64 @@
+.options__wrap {
+  display: flex;
+  position: relative;
+  gap: 68px;
+  padding-left: 42px;
+  margin-bottom: 17px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url('../img/plane-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 70%;
+    transform: translateY(-50%);
+  }
+}
+
+.options__wrap--passengers {
+  &::before {
+    display: none;
+  }
+}
+
+.options__text {
+  margin-bottom: 5px;
+}
+
+.options__select {
+  width: 244px;
+  height: 32px;
+  border: 0.5px solid #b9b9b9;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.options__passengers {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 127px;
+  gap: 68px;
+  padding-bottom: 23px;
+}
+
+.options__button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  width: 244px;
+  height: 34px;
+  align-self: flex-end;
+  background: #ff7100;
+  opacity: 0.5;
+  border: none;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  cursor: pointer;
+}

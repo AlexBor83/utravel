@@ -1,0 +1,353 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+img{max-width:100%;height:auto}a{text-decoration:none}ul{padding-left:0;margin:0;list-style:none}p,h1,h2,h3{margin:0}.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;white-space:nowrap;-webkit-clip-path:inset(100%);clip-path:inset(100%);clip:rect(0 0 0 0);overflow:hidden}*,*::before,*::after{box-sizing:border-box}@font-face{font-family:"avenir";src:url(fonts/avenir-lt-std-45-book..woff2) format("woff2");font-style:normal;font-weight:350;font-display:swap}@font-face{font-family:"avenir";src:url(fonts/avenir-lt-std-55-roman..woff2) format("woff2");font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:"avenir";src:url(fonts/avenir-lt-std-65-medium-oblique..woff2) format("woff2");font-style:normal;font-weight:600;font-display:swap}@font-face{font-family:"montserrat";src:url(fonts/Montserrat-Regular..woff2) format("woff2");font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:"montserrat";src:url(fonts/Montserrat-Light..woff2) format("woff2");font-style:normal;font-weight:500;font-display:swap}@font-face{font-family:"montserrat";src:url(fonts/Montserrat-SemiBold..woff2) format("woff2");font-style:normal;font-weight:600;font-display:swap}@font-face{font-family:"montserrat";src:url(fonts/Montserrat-Medium..woff2) format("woff2");font-style:normal;font-weight:500;font-display:swap}@font-face{font-family:"roboto";src:url(fonts/Roboto-Regular..woff2) format("woff2");font-style:normal;font-weight:400;font-display:swap}body{font-family:"avenir",sans-serif;color:#4e4e4e;font-weight:350;font-size:14px;line-height:16px;min-height:100vh;min-width:320px;display:grid;grid-template-rows:min-content 1fr min-content;align-content:start;overflow-x:hidden}.intro{background-color:rgba(50,46,46,.2862745098);background-image:url(assets/airport..jpg);background-size:cover;background-position:center;background-repeat:no-repeat;width:100%;height:100vh}.intro__title{font-family:"montserrat",sans-serif;font-weight:500;font-size:48px;line-height:130%;text-align:right;color:#fff;text-shadow:7px 8px 12px rgba(0,0,0,.21);display:block;width:550px;margin-bottom:5%;margin-left:auto}.container{max-width:1130px;padding-left:15px;padding-right:15px;margin:0 auto}.container--header{max-width:1500px;display:flex;flex-direction:column;justify-content:space-between;height:100vh}.header{margin-top:70px;display:flex;justify-content:space-between;align-items:center}.header__menu{padding:0}.menu{margin:0}.menu__list{display:flex;flex-wrap:wrap;gap:55px}.menu__item--language{position:relative;padding-right:15px}.menu__item--language::after{content:"";position:absolute;background-image:url(assets/arrow-icon..svg);background-size:cover;background-position:center;background-repeat:no-repeat;width:10px;height:15px;right:0}.menu__item:hover{opacity:.5}.menu__link{color:#fff;font-weight:400;font-size:25px;line-height:16px}.menu__link--active{text-decoration:underline;text-decoration-color:#ffc400}.tickets{margin-top:-85px}.tickets__subtitle{font-size:24px;line-height:16px;color:#fff;text-shadow:0px 4px 4px rgba(0,0,0,.61);margin-bottom:14px}.tickets__inner{background:#fff;box-shadow:2px -6px 5px 3px rgba(0,0,0,.26);border-radius:7px;padding-top:40px}.tickets__toggel{border-bottom:1px solid #d9d9d9;display:flex;gap:90px;padding-left:67px;margin-bottom:21px}.tickets__button{font-weight:400;font-size:20px;line-height:16px;color:inherit;background-color:rgba(0,0,0,0);border:none;cursor:pointer}.tickets__button--active{text-decoration:underline;text-decoration-color:#ff7100;color:#ff7100}.tickets__button:hover{opacity:.5}.tickets__vrap{padding-left:60px}.tickets__contet{background:#fff8e1;border-radius:5px;margin-top:30px;margin-bottom:30px;padding:23px 105px;position:relative}.tickets__contet::after{content:"";position:absolute;background-image:url(assets/danger-icon..svg);background-repeat:no-repeat;background-position:center;background-size:cover;width:36px;height:36px;top:50%;transform:translateY(-50%);left:50px}.form__toggel{margin-bottom:17px}.toggles__list{display:flex;gap:120px}.toggles__label{cursor:pointer;transition:opacity .5s}.toggles__label:hover{opacity:0.8}.toggles-check__disk{position:relative;display:inline-block;vertical-align:sub;width:20px;height:20px;border:.5px solid rgba(0,0,0,.2);border-radius:50%;box-shadow:inset 0px 1.5px 1px rgba(0,0,0,.15),inset 0px 0px 2px rgba(0,0,0,.1)}.toggles-check__disk::after{content:"";position:absolute;width:12px;height:12px;border-radius:50%;background-color:#ffa200;top:50%;left:50%;transform:translate(-50%, -50%) scale(0);transition:.2s ease-in}.toggles-check__input:checked+.toggles-check__disk::after{transform:translate(-50%, -50%) scale(1)}.options__wrap{display:flex;position:relative;gap:68px;padding-left:42px;margin-bottom:17px}.options__wrap::before{content:"";position:absolute;background-image:url(assets/plane-icon..svg);background-repeat:no-repeat;background-position:center;background-size:cover;width:24px;height:24px;left:0;top:70%;transform:translateY(-50%)}.options__wrap--passengers::before{display:none}.options__text{margin-bottom:5px}.options__select{width:244px;height:32px;border:.5px solid #b9b9b9;box-shadow:inset 0px 0px 0px 1px rgba(0,0,0,.05);border-radius:3px;cursor:pointer}.options__passengers{display:flex;justify-content:flex-end;padding-right:127px;gap:68px;padding-bottom:23px}.options__button{font-weight:600;font-size:16px;line-height:16px;color:#fff;width:244px;height:34px;align-self:flex-end;background:#ff7100;opacity:.5;border:none;box-shadow:inset 0px 0px 0px 1px rgba(0,0,0,.05);border-radius:3px;cursor:pointer}.traveling{margin-bottom:45px;margin-top:10px}.traveling__top{display:flex;justify-content:space-between;align-items:center}.traveling__title{font-family:"montserrat",sans-serif;font-weight:500;font-size:16px;line-height:16px}.traveling__cards{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}.traveling__card{flex-basis:49%}.card-travel{display:flex;gap:20px;background:#f5f8ff;border:.5px solid #c2cff0;border-radius:5px}.card-travel__content{padding-top:22px;padding-right:16px;padding-top:16px;flex-grow:1}.card-travel__title{font-weight:400;font-size:18px;line-height:16px;margin-bottom:16px}.card-travel__icon{margin-top:16px;margin-bottom:24px}.card-travel__price{text-align:right}
+
+/*# sourceMappingURL=main.d9f7c9f32a7349428867.css.map*/

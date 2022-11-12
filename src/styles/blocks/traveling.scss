@@ -1,0 +1,28 @@
+.traveling {
+  margin-bottom: 45px;
+  margin-top: 10px;
+}
+
+.traveling__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.traveling__title {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.traveling__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: space-between;
+}
+
+.traveling__card {
+  flex-basis: 49%;
+}

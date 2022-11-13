@@ -554,7 +554,7 @@
 
 
             <div class="footer__wrap">
-                <p class="footer__title">General</p>
+                <p class="footer__title footer__title--general">General</p>
                 <ul class="footer__list footer__list--general">
                     <li class="footer__item">
                         <a href="#" class="footer__link">
@@ -580,6 +580,45 @@
             </div>
         </div>
     </footer>
+
+    <div class="login">
+        <img class="login__img" src="./img/login-background.jpg" alt="Фон на экране при вводе логина" width="720"
+            height="843">
+        <form class="login__content form-login">
+            <div class="form-login__wrap">
+                <p class="form-login__text">
+                    Welcome back
+                </p>
+                <h2 class="form-login__title">
+                    Login to your account
+                </h2>
+                <ul class="form-login__list">
+                    <li class="form-login__item">
+                        E-Mail
+                        <input class="form-login__input" type="email" name="email" placeholder="example@email.com">
+                    </li>
+                    <li class="form-login__item">
+                        Password
+                        <input class="form-login__input" type="password" name="password" placeholder="*********">
+                    </li>
+                </ul>
+                <div class="form-login__memory">
+                    <label class="form-login__checkbox">
+                        <input type="checkbox" name="memory">
+                        Remember me
+                    </label>
+                    <p class="form-login__text">Forgot password?</p>
+                </div>
+
+                <button class="form-login__button" type="submit">
+                    Login now
+                </button>
+                <p class="form-login__text form-login__text--acount">Don't have an account? Sign Up</p>
+            </div>
+        </form>
+    </div>
+
+
 </body>
 
 </html>

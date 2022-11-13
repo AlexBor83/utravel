@@ -1,0 +1,15 @@
+.login {
+  width: 1440px;
+  height: 720px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: none;
+}
+
+.login__content {
+  flex-basis: 50%;
+}

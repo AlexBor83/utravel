@@ -1,0 +1,15 @@
+.count {
+  display: flex;
+  width: 77px;
+  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count__button {
+  width: 25px;
+  height: 25px;
+  background-color: #ececec;
+  border: none;
+  border-radius: 5px;
+}

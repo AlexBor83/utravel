@@ -38,3 +38,7 @@ h3 {
 *::after {
   box-sizing: border-box;
 }
+
+.fixed-page {
+  overflow: hidden;
+}
